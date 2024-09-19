@@ -49,6 +49,23 @@ New Features / Enhancements in 5.1
 
    -  Update to SPDX license version 3.24.0
 
+   -  New :ref:`create-spdx-3.0` class to generate SPDX 3.0 output, :ref:`create-spdx-image-3.0` 
+      class that is used when generating images and :ref:`create-spdx-sdk-3.0` for sdk
+      based recipes.
+
+   -  New :ref:`nospdx` class that allows recipes to opt out of generating SPDX.
+
+   -  New :ref:`Vex` class generates the minimum information that is necessary
+      for VEX generation by an external CVE checking tool.
+
+   -  New :ref:`retain` class creates a tarball of the work directory for a recipe
+      when one of its tasks fails, or any other nominated directories.
+
+   -  New :ref:`localpkgfeed` class create a subset of the package feed that just
+      contain the packages depended on by this recipe.
+
+
+
 Known Issues in 5.1
 ~~~~~~~~~~~~~~~~~~~
 
