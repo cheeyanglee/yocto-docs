@@ -26,6 +26,9 @@ New Features / Enhancements in 5.1
 
 -  Testing:
 
+   -  Enable ptests for ``python3-cffi``, ``python3-idna``, ``python3-libarchive-c``, 
+      ``python3-mako``, ``python3-packaging``, ``python3-uritools`` and ``pythonn3-rpds-py``.
+
 -  Utility script changes:
 
 -  BitBake improvements:
