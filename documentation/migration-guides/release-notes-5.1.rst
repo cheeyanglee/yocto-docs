@@ -64,6 +64,20 @@ New Features / Enhancements in 5.1
    -  New :ref:`localpkgfeed` class create a subset of the package feed that just
       contain the packages depended on by this recipe.
 
+   -  New :term:`PACKAGECONFIG` options for individual recipes:
+
+      - appstream: qt6
+      - cronie: inotify
+      - gstreamer1.0-plugins-bad: gtk3
+      - libsdl2: libsamplerate
+      - mesa: tegra
+      - pciutils: kmod zlib
+      - piglit: wayland
+      - pulseaudio: oss-output
+      - python3: staticlibpython
+      - python3-jsonschema: format-nongpl (previously "nongpl")
+      - systemd: bpf-framework
+      - util-linux: libmount-mountfd-support
 
 
 Known Issues in 5.1
