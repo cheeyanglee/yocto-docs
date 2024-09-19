@@ -44,6 +44,8 @@ New Features / Enhancements in 5.1
 
 -  Miscellaneous changes:
 
+   -  Update to SPDX license version 3.24.0
+
 Known Issues in 5.1
 ~~~~~~~~~~~~~~~~~~~
 
@@ -51,6 +53,17 @@ Recipe License changes in 5.1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The following corrections have been made to the :term:`LICENSE` values set by recipes:
+
+-  ``dejagnu``: update :term:`LICENSE` to ``GPL-3.0-only``.
+-  ``gcr``: update :term:`LICENSE` to ``LGPL-2.0-only``.
+-  ``glibc``: update :term:`LICENSE` to ``GPL-2.0-only & LGPL-2.1-or-later``.
+-  ``iw``: update :term:`LICENSE` to ``ISC``.
+-  ``ppp``: add license ``RSA-MD`` .
+-  ``tiff``: update :term:`LICENSE` to ``libtiff``.
+-  ``unzip``: update :term:`LICENSE` to ``Info-ZIP``.
+-  ``xz``: add :term:`LICENSE` ``PD`` for xz, xz-dev and xz-doc package.
+-  ``zip``: update :term:`LICENSE` to ``Info-ZIP``.
+
 
 Security Fixes in 5.1
 ~~~~~~~~~~~~~~~~~~~~~
