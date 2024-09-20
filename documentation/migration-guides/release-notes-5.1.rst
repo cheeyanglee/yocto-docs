@@ -12,6 +12,8 @@ New Features / Enhancements in 5.1
 
    - :term:`CVE_CHECK_MANIFEST_JSON_SUFFIX`: suffix for the CVE JSON manifest file.
 
+   - :term:`UNPACKDIR`: allow change of do_unpack directory.
+
 -  Architecture-specific enhancements:
 
 -  Kernel-related enhancements:
@@ -101,6 +103,7 @@ New Features / Enhancements in 5.1
       - systemd: bpf-framework
       - util-linux: libmount-mountfd-support
 
+   -  Stop referring :term:`WORKDIR` for :term:`S` and :term:`B`.
 
 Known Issues in 5.1
 ~~~~~~~~~~~~~~~~~~~
