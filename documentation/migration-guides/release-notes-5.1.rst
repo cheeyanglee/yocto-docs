@@ -16,6 +16,11 @@ New Features / Enhancements in 5.1
 
 -  New core recipes:
 
+   -  `fmt <https://fmt.dev>`__: an open-source formatting library for C++. (from meta-oe)
+
+   -  `xcb-util-errors <http://xcb.freedesktop.org/XcbUtil/>`__: gives human readable
+      names to error codes and event codes
+
 -  QEMU / ``runqemu`` enhancements:
 
 -  Rust improvements:
@@ -26,7 +31,7 @@ New Features / Enhancements in 5.1
 
 -  Testing:
 
-   -  Enable ptests for ``python3-cffi``, ``python3-idna``, ``python3-libarchive-c``, 
+   -  Enable ptests for ``python3-cffi``, ``python3-idna``, ``python3-libarchive-c``,
       ``python3-mako``, ``python3-packaging``, ``python3-uritools`` and ``pythonn3-rpds-py``.
 
 -  Utility script changes:
@@ -49,7 +54,7 @@ New Features / Enhancements in 5.1
 
    -  Update to SPDX license version 3.24.0
 
-   -  New :ref:`create-spdx-3.0` class to generate SPDX 3.0 output, :ref:`create-spdx-image-3.0` 
+   -  New :ref:`create-spdx-3.0` class to generate SPDX 3.0 output, :ref:`create-spdx-image-3.0`
       class that is used when generating images and :ref:`create-spdx-sdk-3.0` for sdk
       based recipes.
 
