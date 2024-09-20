@@ -100,6 +100,8 @@ The following corrections have been made to the :term:`LICENSE` values set by re
 -  ``dejagnu``: update :term:`LICENSE` to ``GPL-3.0-only``.
 -  ``gcr``: update :term:`LICENSE` to ``LGPL-2.0-only``.
 -  ``glibc``: update :term:`LICENSE` to ``GPL-2.0-only & LGPL-2.1-or-later``.
+-  ``gpgme``: update :term:`LICENSE` for different packages.
+-  ``linux-firmware``: separate license ``Firmware-linaro`` for linaro-license package.
 -  ``iw``: update :term:`LICENSE` to ``ISC``.
 -  ``ppp``: add license ``RSA-MD`` .
 -  ``tiff``: update :term:`LICENSE` to ``libtiff``.
