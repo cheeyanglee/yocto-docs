@@ -36,6 +36,21 @@ New Features / Enhancements in 5.1
 
 -  Utility script changes:
 
+   -  New ``cve-json-to-text`` script that converts the cve-check result from the JSON format
+      to the TEXT format as cve-check removed text format.
+
+   -  New ``makefile-getvar`` script to extract value from a Makefile.
+
+   -  New ``pull-spdx-licenses`` script to pull SPDX license data, update license list JSON
+      data and update license directory.
+
+   -  Several improvement in ``oe-build-perf-report`` report.
+
+   -  ``oe-debuginfod`` add parameter "-d" to store debuginfod files in project sub-directory.
+
+   -  ``resulttool`` support test report generation in JUnit XML format.
+
+
 -  BitBake improvements:
 
 -  devtool improvements:
@@ -86,8 +101,6 @@ New Features / Enhancements in 5.1
       - systemd: bpf-framework
       - util-linux: libmount-mountfd-support
 
-   -  New ``cve-json-to-text`` script that converts the cve-check result from the JSON format
-      to the TEXT format as cve-check removed text format.
 
 Known Issues in 5.1
 ~~~~~~~~~~~~~~~~~~~
