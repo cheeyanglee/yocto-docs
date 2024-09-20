@@ -10,6 +10,8 @@ New Features / Enhancements in 5.1
 
 -  New variables:
 
+   - :term:`CVE_CHECK_MANIFEST_JSON_SUFFIX`: suffix for the CVE JSON manifest file.
+
 -  Architecture-specific enhancements:
 
 -  Kernel-related enhancements:
@@ -43,6 +45,8 @@ New Features / Enhancements in 5.1
 -  Packaging changes:
 
 -  Security improvements:
+
+   -  Improved with status information for each CVE under analysis.
 
 -  Toaster Web UI improvements:
 
@@ -82,6 +86,8 @@ New Features / Enhancements in 5.1
       - systemd: bpf-framework
       - util-linux: libmount-mountfd-support
 
+   -  New ``cve-json-to-text`` script that converts the cve-check result from the JSON format
+      to the TEXT format as cve-check removed text format.
 
 Known Issues in 5.1
 ~~~~~~~~~~~~~~~~~~~
