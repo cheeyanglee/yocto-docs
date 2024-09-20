@@ -25,8 +25,6 @@ New Features / Enhancements in 5.1
 
 -  Rust improvements:
 
--  wic Image Creator enhancements:
-
 -  SDK-related improvements:
 
 -  Testing:
