@@ -12,6 +12,9 @@ New Features / Enhancements in 5.1
 
    - :term:`CVE_CHECK_MANIFEST_JSON_SUFFIX`: suffix for the CVE JSON manifest file.
 
+   - :term:`RECIPE_UPGRADE_EXTRA_TASKS`: space-delimited list of tasks to run after the new
+     sources have been unpacked in scripts/lib/devtool/upgrade.py ugrade() method.
+
    - :term:`UNPACKDIR`: allow change of do_unpack directory.
 
 -  Architecture-specific enhancements:
