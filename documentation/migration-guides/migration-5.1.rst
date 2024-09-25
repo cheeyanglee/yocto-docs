@@ -141,3 +141,8 @@ QEMU changes
 Miscellaneous changes
 ~~~~~~~~~~~~~~~~~~~~~
 
+   -  oeqa/selftest now only rewrite environnement variable paths that
+     absolutely point to builddir. Environnement variables containing relative
+     paths from tested build directory to outside of the original build
+     directory may need update as they won't be changed by selftest.
+
