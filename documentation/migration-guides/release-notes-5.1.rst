@@ -32,6 +32,8 @@ New Features / Enhancements in 5.1
 
 -  QEMU / ``runqemu`` enhancements:
 
+   - runqemu: :term:`QB_DRIVE_TYPE` now support for sd card (/dev/mmcblk)
+
 -  Rust improvements:
 
 -  SDK-related improvements:
