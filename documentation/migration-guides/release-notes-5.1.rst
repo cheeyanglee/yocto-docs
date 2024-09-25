@@ -50,6 +50,8 @@ New Features / Enhancements in 5.1
 
 -  Miscellaneous changes:
 
+   -  spriv-tools is now repeatably reproducible
+
 Known Issues in 5.1
 ~~~~~~~~~~~~~~~~~~~
 
