@@ -12,6 +12,8 @@ New Features / Enhancements in 5.1
 
    - :term:`CVE_CHECK_MANIFEST_JSON_SUFFIX`: suffix for the CVE JSON manifest file.
 
+   - :term:`PRSERVER_UPSTREAM`: Upstream PR service (host:port).
+
    - :term:`RECIPE_UPGRADE_EXTRA_TASKS`: space-delimited list of tasks to run after the new
      sources have been unpacked in scripts/lib/devtool/upgrade.py ugrade() method.
 
@@ -57,6 +59,33 @@ New Features / Enhancements in 5.1
 
 
 -  BitBake improvements:
+
+   -  New go module fetcher (``gomod://``) for downloading module dependencies to the
+      module cache from a module proxy.
+
+   -  New go module fetcher (``gomodgit://``) for downloading module dependencies to the
+      module cache directly from a git repository.
+
+   -  Crate added check for latest upstream version.
+
+   -  Syncrpc required a minimum version of the websockets module depend on python version.
+
+   -  Improved bitbake-hashclient stress statistics reporting.
+
+   -  bitbake-hashserv added ``reuseport`` parameter to enable SO_REUSEPORT, allowing
+      multiple servers to bind to the same port for load balancing
+
+   -  improved cloning speed with :term:`BB_GIT_SHALLOW` and :term:`BB_GENERATE_MIRROR_TARBALLS`.
+
+   -  bitbake UI now include log paths for failed task.
+
+   -  fetcher2 support for wget and wget2.
+
+   -  fetcher2 support npm package name with '@' character.
+
+   -  Codeparser now support shell substitution in quotes, for example::
+
+         var1="$(cmd1 ...)"
 
 -  devtool improvements:
 
